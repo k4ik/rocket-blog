@@ -4,7 +4,7 @@
 ## Technologies
 - HTML
 - CSS
-- SCSS
+- SASS
 
 ## Deploy
 - [Github Pages](https://k4ik.github.io/rocket-blog/)
