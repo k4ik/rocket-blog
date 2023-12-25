@@ -1,3 +1,8 @@
+@import '../scss/variables';
+@import '../scss/header';
+@import '../scss/home';
+@import '../scss/posts';
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +11,6 @@
 
 body {
     max-width: 1440px;
-    margin: 0 auto
+    margin: 0 auto;
+    background-color: $post-bg-color;
 }
-
-@import '../scss/variables';
-@import '../scss/header';
-@import '../scss/home';
