@@ -4,5 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto
+}
+
 @import '../scss/variables';
 @import '../scss/header';
+@import '../scss/home';
