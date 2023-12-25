@@ -2,10 +2,11 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 80px;
     background-color: $home-bg-color;
+    font-family: 'Roboto', sans-serif;
 
     .header-logo {
         width: 161px;
