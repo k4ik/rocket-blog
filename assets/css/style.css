@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -101,4 +90,56 @@ body {
   width: 100%;
   max-width: 570px;
   height: auto;
+}
+
+.post-style h2, .posts h2 {
+  color: #290742;
+  font-size: 24px;
+  margin: 10px 0;
+}
+.post-style p, .posts p, .post-style span, .posts span {
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.posts {
+  padding: 60px 80px;
+  font-family: "Poppins";
+  background-color: #F2E7FA;
+}
+.posts .main-posts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.posts .main-posts aside {
+  width: 569px;
+}
+.posts .main-posts aside img {
+  width: 100%;
+  height: 342px;
+}
+.posts .other-posts {
+  display: flex;
+  justify-content: space-between;
+}
+.posts .other-posts div {
+  width: 370px;
+}
+.posts .other-posts div img {
+  width: 100%;
+  height: 259px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F2E7FA;
 }/*# sourceMappingURL=style.css.map */
