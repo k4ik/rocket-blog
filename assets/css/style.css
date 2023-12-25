@@ -60,7 +60,7 @@
 }
 .home article {
   width: 100%;
-  max-width: 570px;
+  max-width: 470px;
 }
 .home article h1 {
   color: #9E6DC2;
@@ -88,19 +88,22 @@
 }
 .home img {
   width: 100%;
-  max-width: 570px;
+  max-width: 470px;
   height: auto;
 }
 
 .post-style h2, .posts h2 {
   color: #290742;
-  font-size: 24px;
+  font-size: 20px;
   margin: 10px 0;
 }
 .post-style p, .posts p, .post-style span, .posts span {
   color: #000000;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
+}
+.post-style p, .posts p {
+  margin-bottom: 40px;
 }
 
 .posts {
@@ -114,7 +117,7 @@
   margin-bottom: 60px;
 }
 .posts .main-posts aside {
-  width: 569px;
+  width: 490px;
 }
 .posts .main-posts aside img {
   width: 100%;
@@ -125,7 +128,7 @@
   justify-content: space-between;
 }
 .posts .other-posts div {
-  width: 370px;
+  width: 340px;
 }
 .posts .other-posts div img {
   width: 100%;

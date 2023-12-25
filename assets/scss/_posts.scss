@@ -3,14 +3,18 @@
 .post-style {
     h2 {
         color: $post-title-color;
-        font-size: 24px;
+        font-size: 20px;
         margin: 10px 0;
     }
 
     p, span {
         color: $post-text-color;
-        font-size: 16px;
+        font-size: 14px;
         text-align: justify;
+    }
+
+    p{
+        margin-bottom: 40px;
     }
 }
 
@@ -26,7 +30,7 @@
         margin-bottom: 60px;
 
         aside {
-            width: 569px;
+            width: 490px;
 
             img {
                 width: 100%;
@@ -39,7 +43,7 @@
         display: flex;
         justify-content: space-between;
         div {
-            width: 370px;
+            width: 340px;
 
             img {
                 width: 100%;
