@@ -8,12 +8,22 @@
     background-color: $home-bg-color;
     font-family: 'Roboto', sans-serif;
 
+    @media screen and (max-width: 570px){
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+
     .header-logo {
         width: 161px;
         height: 36px;
     }
 
     .header-nav {
+        @media screen and (max-width: 920px){
+            display: none;
+        }
+
         ul {
             list-style: none;
             

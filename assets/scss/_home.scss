@@ -7,6 +7,14 @@
     padding: 20px 80px 60px;
     font-family: 'Roboto', sans-serif;
 
+    @media screen and (max-width: 1140px) {
+        justify-content: center;
+        padding: 20px 20px 60px;
+        img {
+            display: none;
+        }
+    }
+
     article {
         width: 100%;
         max-width: 470px;

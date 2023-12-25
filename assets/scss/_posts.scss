@@ -24,6 +24,21 @@
     @extend .post-style;
     background-color: $post-bg-color;
 
+    @media screen and (max-width: 1250px){
+        padding: 60px 20px;
+
+        .main-posts {
+            flex-direction: column;
+            align-items: center;
+        }
+        .other-posts {
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+    }
+
     .main-posts {
         display: flex;
         justify-content: space-between;
@@ -32,9 +47,14 @@
         aside {
             width: 490px;
 
+            @media screen and (max-width: 570px){
+                width: 340px;
+            }
+
             img {
                 width: 100%;
                 height: 342px;
+                object-fit: cover;
             }
         }
     }
@@ -42,13 +62,25 @@
     .other-posts {
         display: flex;
         justify-content: space-between;
+        
         div {
             width: 340px;
+            @media screen and (max-width: 1250px){
+                width: 490px;
+            }
+
+            @media screen and (max-width: 570px){
+                width: 340px;
+            }
 
             img {
                 width: 100%;
                 height: 259px;
+                object-fit: cover;
+                
             }
         }
     }
+
+
 }
